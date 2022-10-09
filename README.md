@@ -15,12 +15,12 @@
   <br> Example: `/?action=new&value=[1,2,3]`
   <br> Output: 
     ```
-{
-  "status": "ok",
-  "result": "DDDBFC7d3E",
-  "time": 1665266396,
-  "auth": "Df4C22FAE"
-} 
+    {
+      "status": "ok",
+      "result": "DDDBFC7d3E",
+      "time": 1665266396,
+      "auth": "Df4C22FAE"
+    } 
     ```
     you will need the <kbd>"auth"</kbd> in the editing actions (del, edit).
 
@@ -29,11 +29,11 @@
   <br> Example: `/?action=get&key=DDDBFC7d3E`
   <br> Output: 
     ```
-{
-  "status": "ok",
-  "result": "[1,2,3]",
-  "time": 1665266396
-}
+    {
+      "status": "ok",
+      "result": "[1,2,3]",
+      "time": 1665266396
+    }
     ```
 
 - ### Get All Keys
@@ -41,11 +41,11 @@
   <br> Example: `/?action=keys`
   <br> Output: 
     ```
-{
-  "status": "ok",
-  "result": ["DDDBFC7d3E", "DKDBFC7d3F",....],
-  "time": 1665270005
-}
+    {
+      "status": "ok",
+      "result": ["DDDBFC7d3E", "DKDBFC7d3F",....],
+      "time": 1665270005
+    }
     ```
     This action is optional and you can disable it by setting the variable `$keys_use_state` to <kbd>false</kbd>
 
@@ -54,11 +54,11 @@
   <br> Example: `/?action=edit&key=DDDBFC7d3E&auth=Df4C22FAE&value=[3,2,1]`
   <br> Output: 
     ```
-{
-  "status": "ok",
-  "result": "success",
-  "time": 1665268190
-}
+    {
+      "status": "ok",
+      "result": "success",
+      "time": 1665268190
+    }
     ```
 
 - ### Deleting data
@@ -66,11 +66,11 @@
   <br> Example: `/?action=del&key=DDDBFC7d3E&auth=Df4C22FAE`
   <br> Output: 
     ```
-{
-  "status": "ok",
-  "result": "success",
-  "time": 1665268495
-}
+    {
+      "status": "ok",
+      "result": "success",
+      "time": 1665268495
+    }
     ```
 
 - ### Custom tag
@@ -78,12 +78,12 @@
   <br> Example: `/?action=new&tag=countyAndContinent&content={"County": "Egypt", "continent": "Africa"}`
   <br> Output: 
     ```
-{
-  "status": "ok",
-  "result": "DDDBFC7d3E",
-  "time": 1665266396,
-  "auth": "Df4C22FAE"
-} 
+    {
+      "status": "ok",
+      "result": "DDDBFC7d3E",
+      "time": 1665266396,
+      "auth": "Df4C22FAE"
+    } 
     ```
 
 ## Support and help
